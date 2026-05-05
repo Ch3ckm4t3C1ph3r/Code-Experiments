@@ -17,7 +17,6 @@ main---+
 Which in each brach you find directories with Expermient-# sintax (where # is a number starting from 1).
 
 # Programming Languages
-    
-    * C
-    * NASM (Intel16, Intel32, Intel64)
-    * Rust
+* C
+* NASM (Intel16, Intel32, Intel64)
+* Rust
