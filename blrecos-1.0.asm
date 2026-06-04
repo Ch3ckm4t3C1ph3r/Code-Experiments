@@ -1,6 +1,6 @@
 ; No EDD bootloader
 	BITS 16
-    	ORG 0x7C00
+    ORG 0x7C00
 start:
 	jmp 0x0000:init
 
@@ -9,10 +9,10 @@ init:
 
 	cli
 	xor ax,ax
-    	mov ds, ax
-    	mov es, ax
-    	mov ss, ax
-    	mov sp, 0x7C00
+    mov ds, ax
+    mov es, ax
+    mov ss, ax
+    mov sp, 0x7C00
 	sti
 	
 	mov ax, 0x0003
