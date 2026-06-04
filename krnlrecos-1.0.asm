@@ -1,5 +1,5 @@
 	BITS 16
-    	ORG 0x1000
+    ORG 0x1000
 krnl_start:
 	cli
 	xor ax, ax
